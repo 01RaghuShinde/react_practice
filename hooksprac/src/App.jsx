@@ -1,11 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import Home from './components/Home.jsx'
+import { BrowserRouter,Routes } from 'react-router-dom'
 
-function App() {
-  (
- <></>
+
+function App() { 
+  return(
+ <>
+ <Home/>
+ <h1>Hello World</h1>
+
+
+ 
+ </>
   )
 }
 
